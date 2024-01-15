@@ -1,0 +1,249 @@
+/* RESET CSS */
+* {
+  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1px;
+}
+
+
+
+/* NAVBAR */
+.navegacao {
+  background-color: purple;
+  padding: 10px;
+  display: flex; 
+  justify-content: center;
+  box-shadow: 10px 0 10px rgba(0,0,0,.2);
+  position: sticky;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* HEADER */
+header{
+  background-image: url("https://image.freepik.com/vetores-gratis/citacao-de-poder-fnto-de-icones-de-simbolo-da-moda-com-o-retrato-de-frida-kahlo-diamantes-rosas-e-simbolos-femininos-emblemas-de-remendo-adesivos-alfinetes-slogan-do-feminismo-mulher-certa_163983-806.jpg" ); 
+  height: 282px;
+  margin: -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+} 
+div{
+  display: inline-block;
+  justify-content: start;
+  align-items: center;
+}
+h1{
+  margin-left: 29%;
+  margin-top: -77-12pxpx;
+  font-size: 103px;
+}
+.navegacao__lista{
+  margin-right: 11px;
+  color: black;
+}
+.saibamais{
+  color:white
+}
+.imagemadireita{
+  margin-top:11px;
+  width: 103px;
+  margin-right: 91%;
+  border-radius: 59px;
+}
+.imagemadireita:hover{
+  width: 130px;
+}
+
+
+
+
+/* --- BOTAO --- */
+  
+
+
+/*********** HEADER   *********/
+
+
+
+/* SECAO Maravilhosa */
+main{
+  color: purple;
+  background-color: black
+}
+
+
+h2{
+  font-size: 31px;
+  text-align: center;
+}
+li{
+  margin-top: 5px;
+}
+.primeirotexto{
+  width: 346px;
+  color: white;
+}
+.lista_de_curiosidades{
+  color: white;
+  margin-inline: 33%;
+}
+h5{
+  font-size: 31px;
+}
+h3{
+  font-size: 29px; 
+}
+.fotos{
+  display: inline-block;
+  color: white;
+}
+.imagens {
+  margin: 39px;
+  width: 200px;
+  height: 170px;
+  border-radius: 100px;
+  justify-content: space-around;
+  align-items: center;
+} 
+p.textodafoto{
+  width:261px;
+  display: table;
+  text-align: center;
+}
+.primeira_div{
+  margin-top: 16px;
+}
+.lista-frases{
+  padding: 18px;
+  width: 21%;
+  color: white;
+}
+.frases-frida{
+    text-align: -webkit-right;
+}
+
+/* AUTORA */
+
+.text-autora{
+  color: white;
+}
+h4{
+  margin-top: -38px;
+  padding-block: 10px;
+}
+.autora{
+    border-style: double;
+    margin: 70px;
+    padding: 39px;
+    text-align: center;
+}
+.img-avatar{
+  border-radius: 100px;
+    width: 100px;
+}
+
+/* SECAO Recado */
+form{
+  text-align: center;
+  padding: 30px;
+}
+button{
+  margin: 12px;
+}
+button:hover{
+  background-color: pink;
+}
+#recado{
+  font-size: 33px;
+}
+#nome{
+  font-size: 20px;
+}
+
+/* FOOTER */
+footer{
+  color: #fff;
+}
+.footer-box1{
+  background-color: purple;
+  padding: 35px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.footer-box1--textos{
+  text-align: center;
+
+}
+
+.footer-box1--home:hover, .footer-box1--conheca:hover {
+  font-weight: bold;
+}
+
+.icone-redes-sociais, .footer-box1--home, .footer-box1--conheca {
+  transition: 0.4s;
+}
+
+.icone-redes-sociais:hover{
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+
+.facebook{
+  margin-inline: 9px;
+}
+.twitter{
+  margin-inline: 25px;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+/* estilo para tablets */
+@media screen and (max-width: 830px) {
+  .footer-box1{
+    background-color: blue;
+  }
+  .navegacao {
+    background-color: blue;
+  }
+  main{
+
+    color: blue;
+    background-color: black
+  }
+}
+
+/* estilo para celulares */
+@media screen and (max-width: 500px){
+    /* faça o que está aqui dentro */
+    .footer-box1{
+      background-color: #ea4c89;
+    }
+    .navegacao {
+      background-color: #ea4c89;
+    }
+    main{
+      color: #ea4c89;
+      background-color: black
+    }
+}
+
